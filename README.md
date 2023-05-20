@@ -1,7 +1,7 @@
 ## Github Finder 
 <br />
 
-# Click [here]() to find your profile on Github.
+# Click [here](https://nathanshuai.github.io/github-finder/) to find your profile on Github.
 
 <br />
 
