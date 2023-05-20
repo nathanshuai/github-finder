@@ -1,0 +1,175 @@
+@charset "utf-8";
+
+html {
+    color: azure;  
+}
+
+.search-page {
+    overflow: hidden;
+}
+
+.container {
+    margin-top: 250px;
+    width: min(100% - 30px,1200px);
+    margin-inline: auto;
+}
+
+form, h1{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 25px;
+    font-size: 42px;
+    font-weight: 600;
+}
+
+input[type ='text']{
+    padding: 0 10px;
+    height: 42px;
+    border-radius: 5px;
+    border: solid 1px #00ffc0;
+    background-color: #202221;
+    font-size: 14px;
+    font-weight: 600;
+    color: #f3f4f5;
+    cursor: pointer;
+}
+
+button{
+    margin-left: 25px;
+    padding: 0 10px;
+    height: 42px;
+    border-radius: 5px;
+    background-color: #00a86b;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #f3f4f5;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.link {
+    text-decoration: none;
+    color: #f3f4f5;
+}
+
+.error {
+    display: flex;
+    justify-content: center;
+}
+
+.error p {
+    margin-top: -15px;
+    margin-right: 120px;
+}
+
+.user-container {
+    margin-top: 50px;
+    width: min(100% - 30px,1200px);
+    margin-inline: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.user {
+    display: grid;
+    justify-content: center;
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 180px; 
+}
+
+img {
+    border-radius: 50%;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.flex1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.repositories > p,.followers > p, .following > p {
+    color: #00a86b;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+h3 {
+    font-size: 16px;
+   font-weight: 400; 
+}
+
+.repositories,.followers, .following{
+    text-align: center;   
+}
+
+.button {
+    margin-left: -25px;
+    margin-top: 25px;
+    text-align: center;
+}
+
+.user-name {
+    font-size: 32px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.my-repos {
+    margin: 55px 60px;
+    display: grid;
+    gap: 20px;
+    padding-bottom: 30px;
+}
+
+.repository {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 10px;
+    height: 100%;
+    padding: 10px 20px;
+    background-color: #70686817;
+    border-radius: 5px;
+    width: 700px;
+}
+
+
+.flex3 {
+    display: flex;
+    justify-content: space-between;
+    width: 660px;
+}
+
+.my-repos h2 {
+    font-weight: 600;
+    padding: 10px;
+    margin-left: 10px;
+  }
+
+.repo-description {
+    padding: 10px 0;
+    color: #dbd9d9;
+  }
+  
+.repo-update {
+    color: #b9a7a7;
+  }
+  
+.repo-name {
+    color: #00ffc0;
+  }
+ 
+ 
